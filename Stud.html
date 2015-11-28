@@ -1,39 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
+
     <link rel="icon" href="../../favicon.ico">
 
     <title>Mein Studium</title>
 
-    <!-- Bootstrap core CSS -->
-     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">                                         
 
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" crossorigin="anonymous">
     <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="jumbotron.css" rel="stylesheet">
 
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
   </head>
 
   <body>
 
-   <<nav class="navbar navbar-inverse">
+   <nav class="navbar navbar-inverse">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -73,45 +63,62 @@
        </div><!--/.navbar-collaps-->
      >
 
-    <!-- Main jumbotron for a primary marketing message or call to action -->
+
     <div class="jumbotron">
       <div class="container">
 
+      <div class="textbox">
       <h1>Mein bisheriges Studium</h1>
-      <p>Ich bin seid 2014 Student der Technischen Hochschule Mittelhessen. Ich studiere allgemeine Informatik. </p>
+      <p>Ich bin seit 2014 Student der Technischen Hochschule Mittelhessen in Gie&szlig;en. </p>
+      <h2>1.Semester</h2>
+      <p>Als ich ins erste Semester kam, war f&uuml;r mich vieles neu. Vorallem der etwas l&auml;ngere Stundenplan. Bis 19Uhr zu haben war f&uuml;r mich Anfangs eine Herausforderung, weil man sowas aus der Schule nicht kennt.
+      Ich hab etwas Zeit gebraucht um mich einzugew&ouml;hnen. Ebenso musste ich mich angew&ouml;hnen wie Unterrichtet wurde.</p>
+      <h2>2.Semester</h2>
+      <p>Das zweite Semester ist sehr schnell vorr&uuml;ber gegangen.Ich hatte in diesem Semester wieder bis 19 Uhr Vorlesung gehabt,aber das war nicht so schwierig f&uuml;r mich, wie im ersten Semester. Die Wochen und Monate vergingen im Flug. Dann wurden die Klausuren geschrieben. </p>
+      <h2>3.Semester</h2>
+      <p>Aktuell bin ich im dritten Semester. Ich haben immer noch nicht die Motivation verloren. Das Semester ist etwa schon zur H&auml;lfte vorbei, was f&uuml;r mich wie im zweiten Semester im Flug vorging.</p>
+
+      </div> <!--/div textbox-->
+
+
 
         <div class="suche">
           <form action="http://de.wikipedia.org/wiki/Spezial:Suche">
              <fieldset>
-               <legend>Wikipedia suche:</legend>
-                 <label>Text eingeben:</label>
-                 <input type="text"   name="search" value="" />
+                <legend>Wikipedia suche:</legend>
+                <label for="search">Text eingeben:</label>
+                 <input type="text"   name="search" id="search" value="" />
                  <input type="submit" name="go" value="Artikel"/>
                  <input type="submit" name="fulltext" value="Volltext" />
              </fieldset>
           </form>
+
         </div>  <!-- /div suche -->
+
+         <div class="git">
+          <p>F&uuml;r Verbeserungsvorschl&auml;ge Pull-Request auf <a href="https://github.com/ReinerZufall159/ibs" target="_blank">Github</a> stellen </p>
+          </div>  <!-- /div git -->
 
       </div>   <!-- /div container -->
     </div>    <!-- /div jumbotron -->
 
     <div class="container">
-      <!-- Example row of columns -->
+
       <!--<div class="row"> -->
 
         <div class="col-md-4">
           <h2>Internet</h2>
-          <p><iframe width="350" height="200" src="https://www.youtube.com/embed/8PNRrOGJqUI" frameborder="0" allowfullscreen></iframe></p>
+          <p><iframe width="350" height="200" src="https://www.youtube.com/embed/8PNRrOGJqUI" allowfullscreen></iframe></p>
         </div> <!-- /div col-md-4 -->
 
          <div class="col-md-4">
           <h2>CodeCademy</h2>
-          <p><iframe width="350" height="200" src="https://www.youtube.com/embed/4AukNDrAjeM" frameborder="0" allowfullscreen></iframe></p>
+          <p><iframe width="350" height="200" src="https://www.youtube.com/embed/4AukNDrAjeM" allowfullscreen></iframe></p>
          </div> <!-- /div col-md-4 -->
 
         <div class="col-md-4">
           <h2>THM</h2>
-          <p><iframe width="350" height="200" src="https://www.youtube.com/embed/HMVXeTpRWLM" frameborder="0" allowfullscreen></iframe></p>
+          <p><iframe width="350" height="200" src="https://www.youtube.com/embed/HMVXeTpRWLM" allowfullscreen></iframe></p>
         </div> <!-- /div col-md-4 -->
 
 
@@ -125,14 +132,11 @@
 
        </div> <!-- /container -->
 
+      </nav>
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
     <script src="../../dist/js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>
 </html>
