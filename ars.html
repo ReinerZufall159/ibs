@@ -18,6 +18,9 @@
 
     <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
 
+     <script type = "text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+     <script type="text/javascript" src="http://canvasjs.com/assets/script/canvasjs.min.js"></script>
+     <script type = "text/javascript" src="test.js"></script>
 
   </head>
 
@@ -43,7 +46,7 @@
               <div class="navbar-header">
             <div class="form-group">
                <ul class="nav masthead-nav">
-                  <li class="active"><a href="index.html">Home</a></li>
+                  <li><a href="index.html">Home</a></li>
                </ul>
             </div><!--/div form-group-->
 
@@ -65,11 +68,14 @@
                </ul>
             </div>  <!--/div form-group-->
 
+
             <div class="form-group">
                <ul class="nav masthead-nav">
-                  <li><a href="ars.html">Arsnova</a></li>
+                  <li class="active"><a href="ars.html">Arsnova</a></li>
                </ul>
-            </div> 
+            </div>  <!--/div form-group-->
+
+
 
                </div> <!--/div navbar-header-->
 
@@ -81,33 +87,8 @@
     <div class="jumbotron">
       <div class="container">
 
+      <div id="chartContainer" style="height: 600px; width: 100%;"></div>
 
-      <h1>Willkommen</h1>
-      <p>Diese Website dient als erste Haus&uuml;bung f&uuml;r das Modul "Internetbasierte Systeme" an der <a href="http://www.thm.de/site/" target="_blank">Technischen Hochschule Mittelhessen</a> in Gie&szlig;en. Die Website sollte mit dem Betriebssystem Ubuntu erstellt und dann mittels Terminal
-      auf <a href="https://www.cloudcontrol.com/" target="_blank">CloudControl</a> hochgeladen werden. Ebenso sollte mittels Github die Website anderer Kommilitonen kontrolliert werden.</p>
-
-      <p>Um die Gestellten und die Empfangenen Pull-Request abzurufen:<a href="git.html">hier klicken</a></p>
-
-        <div class ="wave">
-        <a href="http://wave.webaim.org/report#/http://website123.cloudcontrolled.com/"><img src="wave-logo.gif" alt="WAI-AAA Plakette"/></a>
-
-        </div>
-
-        <div class="suche">
-          <form action="http://de.wikipedia.org/wiki/Spezial:Suche">
-             <fieldset>
-                <legend>Wikipedia suche:</legend>
-                 <label for="search">Text eingeben:</label>
-                 <input type="text"   name="search" id="search" value="" />
-                 <input type="submit" name="go" value="Artikel"/>
-                 <input type="submit" name="fulltext" value="Volltext" />
-             </fieldset>
-          </form>
-        </div>  <!-- /div suche -->
-
-         <div class="git">
-            <p>F&uuml;r Verbesserungsvorschl&auml;ge Pull-Request auf <a href="https://github.com/ReinerZufall159/ibs" target="_blank">Github</a> stellen </p>
-          </div> <!-- /div git -->
 
       </div>   <!-- /div container -->
     </div>    <!-- /div jumbotron -->
