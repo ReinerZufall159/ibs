@@ -2,7 +2,7 @@
         lauf();
 });
 
-setInterval(function(){lauf();}, 1800000);
+setInterval(function(){lauf();}, 30000);
 
       function lauf(){
           var test = new XMLHttpRequest();
